@@ -43,15 +43,15 @@
       <td>workout-tracker last workout screenshot</td>
     </tr>
     <tr>
-      <td><img src="assets/img/workout-tracker-demo_1.png" height=300px alt="screenshot of workout-tracker"></td>
+      <td><img src="assets/img/workout-tracker-demo_1.png" width=400px alt="screenshot of workout-tracker"></td>
     </tr>
   </table>
   <table>
     <tr>
-      <td>gworkout-tracker dashboard screenshot</td>
+      <td>workout-tracker dashboard screenshot</td>
     </tr>
      <tr>
-      <td><img src="assets/img/workout-tracker-demo_2.png" height=300px alt="screenshot of workout-tracker"></td>
+      <td><img src="assets/img/workout-tracker-demo_2.png" width=400px alt="screenshot of workout-tracker"></td>
     </tr>
   </table>
 
