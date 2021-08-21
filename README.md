@@ -40,18 +40,18 @@
   ## Mock-Up
    <table>
     <tr>
-      <td>workout-tracker screenshot</td>
+      <td>workout-tracker last workout screenshot</td>
     </tr>
     <tr>
-      <td><img src="assets/img/workout-tracker-demo.png" height=auto alt="screenshot of workout-tracker"></td>
+      <td><img src="assets/img/workout-tracker-demo_1.png" height=300px alt="screenshot of workout-tracker"></td>
     </tr>
   </table>
   <table>
     <tr>
-      <td>gif demo (See high qlt video link above)</td>
+      <td>gworkout-tracker dashboard screenshot</td>
     </tr>
      <tr>
-      <td><img src="assets/img/workout-tracker-demo.gif" height=400px alt="gif demo of workout-tracker"></td>
+      <td><img src="assets/img/workout-tracker-demo_2.png" height=300px alt="screenshot of workout-tracker"></td>
     </tr>
   </table>
 
