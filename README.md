@@ -1,4 +1,5 @@
  # workout-tracker
+ assignment 17
 
   [![github-follow](https://img.shields.io/github/followers/johnsonr84?label=Follow&logoColor=lightgrey&style=social)](https://github.com/johnsonr84)
   [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/readme-generator?color=orange)](https://github.com/johnsonr84/workout-tracker)
@@ -7,8 +8,12 @@
 
   ## Table of Contents 
   * [Description](#Description)
+  * [User Story](#UserStory)
   * [Project URL](#Project-URL)
+  * [Deplyment](#Deployment)
   * [Mock-up](#Mock-up)
+  * [Technologies](#Technologies)
+  * [Installation](#Installation)
   * [Usage](#Usage)
   * [Credits](#Credits)
   * [License](#License)
@@ -22,17 +27,43 @@
   ## Description 
   The Workout Tracker app is built with a Mongo database with a Mongoose schema and handle routes with Express. The app allows the user to view, create and track daily workouts, by logging multiple exercises in a workout on a given day. The app will track the users the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, it will track the distance traveled. 
 
+  ## UserStory 
+  As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+
   ## Project URL
   https://github.com/johnsonr84/workout-tracker/ 
 
+  ## Deployment
+
+
   ## Mock-Up
-  ![workout-tracker demo png](./images/tracker-demo.gif)
+   <table>
+    <tr>
+      <td>workout-tracker screenshot</td>
+    </tr>
+    <tr>
+      <td><img src="assets/img/workout-tracker-demo.png" height=auto alt="screenshot of workout-tracker"></td>
+    </tr>
+  </table>
+  <table>
+    <tr>
+      <td>gif demo (See high qlt video link above)</td>
+    </tr>
+     <tr>
+      <td><img src="assets/img/workout-tracker-demo.gif" height=400px alt="gif demo of workout-tracker"></td>
+    </tr>
+  </table>
+
+  ## Technologies 
+  ```
+  node.js, Mongodb, Mongoose, Express js, Javascript, HTML5, CSS3
+  ```
 
   ## Installation 
-  No installations required at this time 
+  Access to GitHub.com and a code editor such as vscode is necessary. Click the GitHub link provided above to the APP REPO. Click on the green button that says Clone or Download and Choose how you would like to download: using the SSH/HTTPS keys or download the zip file. If using SSH/HTTPS Key: You will copy the link shown and open up either terminal (mac: pre-installed) or gitbash (pc: must be installed). Once the application is open, you will type git clone paste url here. If using Download ZIP: Click on Download Zip. Locate the file and double click it to unzip the file. Locate the unzipped folder and open it.
 
   ## Usage 
-   
+    In order to use this APP, you need terminal (mac: pre-installed) or gitbash (pc: must be installed). You also need to download and install [node.js](https://nodejs.org/en/) and [npm](www.npmjs.com) or [yarn](https://yarnpkg.com/) package manager. Open the cloned REPO in your favorite code editor, and then in terminal, enter the command “npm i“ or “yarn add”  to install the dependencies. You will also need to signup for a free account at [mongodb.com](https://www.mongodb.com/). In addition, make sure to create a .env file on the project root, and input your own Mongodb Atlas connection URI (see .env_example for samples). Now you are ready to start using  the app by entering “npm start” on your terminal or gitbash. If you just want to try how the app works, you can go to the link [here](<heroku deployment url>)
 
   ## Credits 
   Me, myself and Irene 
@@ -44,7 +75,7 @@
   Coming soon maybe 
 
   ## Tests
-  No tests required at this time 
+  npm test 
 
   ## Resources
   * [MongoDB](https://www.mongodb.com/cloud/atlas) 
