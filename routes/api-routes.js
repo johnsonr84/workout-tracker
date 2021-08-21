@@ -52,6 +52,4 @@ router.get('/range', async (req, res) => {
 });
 
 //Export router
-
-
 module.exports = router;
