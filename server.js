@@ -19,11 +19,11 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // routes
-app.use("/api/workouts", apiRoute);
-app.use("/", htmlRoute);
+app.use(require("./routes/apiRoutes.js"));
+app.use(require("./routes/htmlRoutes.js"));
 
 mongoose
-	.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", {
+	.connect(process.env.MONGODB_URI || "mongodb://localhost/workout-tracker", {
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
 		useCreateIndex: true,
