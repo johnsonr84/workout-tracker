@@ -1,34 +1,32 @@
- # workout-tracker
- assignment 17
+<h1 align="center"><a href="https://fathomless-journey-02992.herokuapp.com/"> Workout Tracker 🏋️‍♂️</a></h1>
+
+  ## Description 
+  The Workout Tracker app is built with a Mongo database with a Mongoose schema and handle routes with Express. The app allows the user to view, create and track daily workouts, by logging multiple exercises in a workout on a given day. The app will track the users the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, it will track the distance traveled.
 
   [![github-follow](https://img.shields.io/github/followers/johnsonr84?label=Follow&logoColor=lightgrey&style=social)](https://github.com/johnsonr84)
   [![project-languages-used](https://img.shields.io/github/languages/count/johnsonr84/readme-generator?color=orange)](https://github.com/johnsonr84/workout-tracker)
   [![project-top-language](https://img.shields.io/github/languages/top/johnsonr84/readme-generator?color=yellow)](https://github.com/johnsonr84/workout-tracker)
   [![license](https://img.shields.io/badge/license-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
+## Built With
+[![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://www.javascript.com/)
+[![NodeJS](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/en/)
+[![ExpressJS](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](https://expressjs.com/)
+[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+
   ## Table of Contents 
   * [Description](#Description)
-  * [User Story](#UserStory)
   * [Project URL](#Project-URL)
-  * [Deplyment](#Deployment)
-  * [Mock-up](#Mock-up)
-  * [Technologies](#Technologies)
+  * [Deployment](#Deployment)
+  * [Demo/Screenshots](#Demo/Screenshots)
   * [Installation](#Installation)
   * [Usage](#Usage)
   * [Credits](#Credits)
   * [License](#License)
-  * [Features](#Features)
-  * [Tests](#Tests)
   * [Resources](#Resources)
   * [Contact](#Contact)
-  * [Designed and built by](#Designed-and-built-by)
+  * [Author](#Author)
   #
-  
-  ## Description 
-  The Workout Tracker app is built with a Mongo database with a Mongoose schema and handle routes with Express. The app allows the user to view, create and track daily workouts, by logging multiple exercises in a workout on a given day. The app will track the users the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, it will track the distance traveled. 
-
-  ## UserStory 
-  As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
 
   ## Project URL
   https://github.com/johnsonr84/workout-tracker/ 
@@ -37,7 +35,7 @@
   https://dry-castle-85403.herokuapp.com/
 
 
-  ## Mock-Up
+  ## Demo/Screenshots
    <table>
     <tr>
       <td>workout-tracker last workout screenshot</td>
@@ -96,7 +94,7 @@
   ## Contact
   Email: robertcjohnson1984@gmail.com 
 
-  ## Designed and built by
+  ## Author
   Author(s): Rob Johnson  
 
   GitHub: https://github.com/johnsonr84/ 
