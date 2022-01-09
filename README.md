@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://fathomless-journey-02992.herokuapp.com/"> Workout Tracker 🏋️‍♂️</a></h1>
+<h1 align="center"><a href="https://dry-castle-85403.herokuapp.com/"> Workout Tracker 🏋️‍♂️</a></h1>
 
   ## Description 
   The Workout Tracker app is built with a Mongo database with a Mongoose schema and handle routes with Express. The app allows the user to view, create and track daily workouts, by logging multiple exercises in a workout on a given day. The app will track the users the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, it will track the distance traveled.
